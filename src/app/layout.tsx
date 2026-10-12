@@ -13,21 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Socio & Ecopreneurship",
-  description: "Mengubah Paradigma Bisnis dengan Socio & Ecopreneurship",
-  // Konfigurasi favicon di bawah ini:
+  title: "Materi Mengajar Fay",
+  description: "Presentasi materi mengajar di Unika",
   icons: {
     icon: [
-      // { url: '/assets/logo.svg', type: 'image/svg+xml' }, // SVG Utama
       { url: '/assets/logo.png'},
       { url: '/favicon.ico', type: 'image/x-icon' },      // Fallback .ico
     ],
-    // Opsional: Jika Anda juga punya icon khusus untuk Apple/iOS
     apple: '/assets/apple-touch-icon.png', 
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+// Ubah di sini: gunakan tipe React.ReactNode langsung atau tipe standar layout
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"

@@ -1,6 +1,6 @@
 'use client';
 
-import SlideEngine from '@/components/SlideEngine';
+import SlideEngine from '@/app/socioecopreneur/components/SlideEngine';
 import Slide1Cover from './Slide1Cover';
 import Slide2PergeseranParadigma from './Slide2PergeseranParadigma';
 import Slide3CoreBusinessModel from './Slide3CoreBusinessModel';
@@ -31,7 +31,7 @@ export default function Pertemuan3() {
   return (
     <SlideEngine
       slides={pertemuan3Slides}
-      currentPath="/pertemuan-3"
+      currentPath="/socioecopreneur/pertemuan-3"
       currentPageTitle="Pertemuan 3"
     />
   );
