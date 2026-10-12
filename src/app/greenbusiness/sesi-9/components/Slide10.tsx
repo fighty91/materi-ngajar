@@ -32,43 +32,44 @@ export default function Slide10() {
   ];
 
   return (
-    <div className="space-y-4 sm:space-y-5 max-w-4xl mx-auto px-4 py-2">
+    <div className="w-full max-w-4xl mx-auto px-1 sm:px-4 py-1 space-y-2 sm:space-y-5 max-h-[calc(100dvh-130px)] flex flex-col justify-center">
+      
       {/* Header Slide */}
       <motion.div 
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="text-center space-y-1.5"
+        className="text-center space-y-0.5 sm:space-y-1.5 shrink-0"
       >
-        <span className="text-xs font-black uppercase tracking-widest text-emerald-800 bg-emerald-200 px-3 py-1 rounded-full shadow-2xs inline-block">
+        <span className="text-[9px] sm:text-xs font-black uppercase tracking-widest text-emerald-800 bg-emerald-200 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full shadow-2xs inline-block">
           Tugas Kelompok (Bagian 2)
         </span>
-        <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+        <h2 className="text-base sm:text-3xl font-black text-slate-900 tracking-tight leading-tight">
           Struktur Presentasi Wajib (&ldquo;Local Hero Pitch&rdquo;)
         </h2>
       </motion.div>
 
-      {/* Grid Kartu 2x2 */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+      {/* Grid Kartu 2x2 Responsif */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 pt-0.5">
         {steps.map((s, idx) => (
           <motion.div
             key={idx}
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.35, delay: idx * 0.1 }}
-            whileHover={{ y: -3, scale: 1.015 }}
-            className="p-4 sm:p-5 bg-white border-2 border-emerald-500/20 hover:border-emerald-500 rounded-3xl shadow-lg space-y-2 transition-all duration-200 cursor-default"
+            transition={{ duration: 0.3, delay: idx * 0.08 }}
+            className="p-2.5 sm:p-5 bg-white border border-emerald-500/20 hover:border-emerald-500 rounded-xl sm:rounded-3xl shadow-xs sm:shadow-lg space-y-1 sm:space-y-2 transition-all duration-200 cursor-default"
           >
-            <div className="flex items-center gap-3">
-              <div className={`w-7 h-7 rounded-xl ${s.color} font-black flex items-center justify-center text-xs shadow-md shrink-0`}>
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className={`w-5 h-5 sm:w-7 sm:h-7 rounded-lg sm:rounded-xl ${s.color} font-black flex items-center justify-center text-[10px] sm:text-xs shadow-xs shrink-0`}>
                 {s.num}
               </div>
-              <h3 className="font-extrabold text-slate-900 text-sm sm:text-base leading-snug">{s.title}</h3>
+              <h3 className="font-extrabold text-slate-900 text-xs sm:text-base leading-snug">{s.title}</h3>
             </div>
-            <p className="text-xs sm:text-sm text-slate-600 font-medium pl-10 leading-relaxed">{s.desc}</p>
+            <p className="text-[10px] sm:text-sm text-slate-600 font-medium pl-7 sm:pl-10 leading-tight sm:leading-relaxed">{s.desc}</p>
           </motion.div>
         ))}
       </div>
+
     </div>
   );
 }
