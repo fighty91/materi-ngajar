@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   description: "Presentasi materi mengajar di Unika",
   icons: {
     icon: [
-      { url: '/assets/logo.png'},
+      { url: '/logo.png'},
       { url: '/favicon.ico', type: 'image/x-icon' },      // Fallback .ico
     ],
-    apple: '/assets/apple-touch-icon.png', 
+    apple: '/apple-touch-icon.png', 
   },
 };
 
