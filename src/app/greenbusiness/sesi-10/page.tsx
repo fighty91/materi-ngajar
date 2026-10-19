@@ -17,7 +17,6 @@ import Slide8 from './slides/Slide8';
 import Slide9 from './slides/Slide9';
 import Slide10 from './slides/Slide10';
 
-
 function Sesi10Content() {
   const router = useRouter();
   const searchParams = useSearchParams();
