@@ -19,14 +19,16 @@ interface SlideEngineProps {
 
 const meetingList: MeetingOption[] = [
   { label: 'Halaman Utama', subLabel: 'Pengantar & Visi OBE', path: '/socioecopreneur' },
-  { label: 'Sesi 1: Pengantar', subLabel: 'Socio & Ecopreneurship', path: '/socioecopreneur/pertemuan-1' },
-  { label: 'Sesi 2: Krisis & Peluang', subLabel: 'Mengenali Masalah Lingkungan', path: '/socioecopreneur/pertemuan-2' },
-  { label: 'Sesi 3: Pemberdayaan', subLabel: 'Masalah Sosial & Komunitas', path: '/socioecopreneur/pertemuan-3' },
-  { label: 'Sesi 4: Empati & Dampak', subLabel: 'Observasi & Pemetaan Stakeholder', path: '/socioecopreneur/pertemuan-4' },
-  { label: 'Sesi 5: Value Proposition', subLabel: 'Formulasi Nilai & Potensi Lokal', path: '/socioecopreneur/pertemuan-5' },
-  { label: 'Sesi 6: SBMC Bagian 1', subLabel: 'Segment, Channels & Impact Metrics', path: '/socioecopreneur/pertemuan-6' },
-  { label: 'Sesi 7: SBMC Bagian 2', subLabel: 'Elemen Keuangan & Sumber Daya', path: '/socioecopreneur/pertemuan-7' },
-  { label: 'Sesi 8: Evaluasi UTS', subLabel: 'Presentasi Proposal Ide SBMC', path: '/socioecopreneur/pertemuan-8' },
+  { label: 'Sesi 1: Pengantar', subLabel: 'Socio & Ecopreneurship', path: '/socioecopreneur/sesi-1' },
+  { label: 'Sesi 2: Krisis & Peluang', subLabel: 'Mengenali Masalah Lingkungan', path: '/socioecopreneur/sesi-2' },
+  { label: 'Sesi 3: Pemberdayaan', subLabel: 'Masalah Sosial & Komunitas', path: '/socioecopreneur/sesi-3' },
+  { label: 'Sesi 4: Empati & Dampak', subLabel: 'Observasi & Pemetaan Stakeholder', path: '/socioecopreneur/sesi-4' },
+  { label: 'Sesi 5: Value Proposition', subLabel: 'Formulasi Nilai & Potensi Lokal', path: '/socioecopreneur/sesi-5' },
+  { label: 'Sesi 6: SBMC Bagian 1', subLabel: 'Segment, Channels & Impact Metrics', path: '/socioecopreneur/sesi-6' },
+  { label: 'Sesi 7: SBMC Bagian 2', subLabel: 'Elemen Keuangan & Sumber Daya', path: '/socioecopreneur/sesi-7' },
+  // { label: 'Sesi 8: Evaluasi UTS', subLabel: 'Ujian Tengah Semester', path: '/socioecopreneur/sesi-8' },
+  { label: 'Sesi 9: Merancang MVP', subLabel: 'Sampel, Sketsa & Maket Produk Awal', path: '/socioecopreneur/sesi-9' },
+  { label: 'Sesi 10: Pemasaran Edukatif', subLabel: 'Strategi Komunikasi Ramah Lingkungan', path: '/socioecopreneur/sesi-10' },
 ];
 
 export default function SlideEngine({
