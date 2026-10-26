@@ -26,6 +26,7 @@ const meetingList: MeetingOption[] = [
   { label: 'Sesi 9: Nilai Bisnis', subLabel: 'Sustainable Value Proposition & Potensi Lokal', path: '/greenbusiness/sesi-9' },
   { label: 'Sesi 10: BMC', subLabel: 'Ketepatan Menyusun BMC & Strategi Implementasi', path: '/greenbusiness/sesi-10' },
   { label: 'Sesi 11: Indikator Kinerja', subLabel: 'Ekonomi, Sosial & Lingkungan', path: '/greenbusiness/sesi-11' },
+  { label: 'Sesi 12: Data Dampak', subLabel: 'Ketepatan Mengolah & Menyajikan Data Dampak Sederhana', path: '/greenbusiness/sesi-12' },
 ];
 
 export default function SlideEngine({
