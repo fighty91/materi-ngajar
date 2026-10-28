@@ -29,6 +29,8 @@ const meetingList: MeetingOption[] = [
   // { label: 'Sesi 8: Evaluasi UTS', subLabel: 'Ujian Tengah Semester', path: '/socioecopreneur/sesi-8' },
   { label: 'Sesi 9: Merancang MVP', subLabel: 'Sampel, Sketsa & Maket Produk Awal', path: '/socioecopreneur/sesi-9' },
   { label: 'Sesi 10: Pemasaran Edukatif', subLabel: 'Strategi Komunikasi Ramah Lingkungan', path: '/socioecopreneur/sesi-10' },
+  { label: 'Sesi 11: Indikator Dampak 3P', subLabel: 'People, Planet & Profit Sederhana', path: '/socioecopreneur/sesi-11' },
+  { label: 'Sesi 12: Umpan Balik Konsumen', subLabel: 'Validasi & Iterasi Produk Awal', path: '/socioecopreneur/sesi-12' },
 ];
 
 export default function SlideEngine({
