@@ -27,6 +27,10 @@ const meetingList: MeetingOption[] = [
   { label: 'Sesi 10: BMC', subLabel: 'Ketepatan Menyusun BMC & Strategi Implementasi', path: '/greenbusiness/sesi-10' },
   { label: 'Sesi 11: Indikator Kinerja', subLabel: 'Ekonomi, Sosial & Lingkungan', path: '/greenbusiness/sesi-11' },
   { label: 'Sesi 12: Data Dampak', subLabel: 'Ketepatan Mengolah & Menyajikan Data Dampak Sederhana', path: '/greenbusiness/sesi-12' },
+  { label: 'Sesi 13: Kelayakan & Risiko', subLabel: 'Ketepatan Melakukan Feasibility & Risk Assessment', path: '/greenbusiness/sesi-13' },
+  { label: 'Sesi 14: Validasi Model', subLabel: 'Ketepatan Memvalidasi Model dengan Mitra', path: '/greenbusiness/sesi-14' },
+  { label: 'Sesi 15: Refleksi & Argumen', subLabel: 'Kualitas Penyempurnaan, Refleksi & Argumentasi Keberlanjutan', path: '/greenbusiness/sesi-15' },
+  { label: 'Sesi 16: Pertanggungjawaban', subLabel: 'Kemampuan Mempertanggungjawabkan Proyek secara Profesional', path: '/greenbusiness/sesi-16' },
 ];
 
 export default function SlideEngine({
