@@ -31,6 +31,10 @@ const meetingList: MeetingOption[] = [
   { label: 'Sesi 10: Pemasaran Edukatif', subLabel: 'Strategi Komunikasi Ramah Lingkungan', path: '/socioecopreneur/sesi-10' },
   { label: 'Sesi 11: Indikator Dampak 3P', subLabel: 'People, Planet & Profit Sederhana', path: '/socioecopreneur/sesi-11' },
   { label: 'Sesi 12: Umpan Balik Konsumen', subLabel: 'Validasi & Iterasi Produk Awal', path: '/socioecopreneur/sesi-12' },
+  { label: 'Sesi 13: Kelayakan & Finalisasi', subLabel: 'Analisis Usaha & Perbaikan SBMC', path: '/socioecopreneur/sesi-13' },
+  { label: 'Sesi 14: Pitching Bisnis', subLabel: 'Presentasi Efektif & Percaya Diri', path: '/socioecopreneur/sesi-14' },
+  { label: 'Sesi 15: Portofolio & Refleksi', subLabel: 'Evaluasi Etis & Kolaborasi Tim', path: '/socioecopreneur/sesi-15' },
+  { label: 'Sesi 16: Sidang UAS', subLabel: 'Pertanggungjawaban Komprehensif Proyek', path: '/socioecopreneur/sesi-16' },
 ];
 
 export default function SlideEngine({
